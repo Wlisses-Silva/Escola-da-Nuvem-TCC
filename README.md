@@ -7,6 +7,6 @@ Desenvolvimento de um website (html, css, javascript) contendo os currículos do
 
 ## Serviços da AWS usados
 
-Simple Storage Service - Amazon S3
-Bucket
-Amazon CloudFront
+- Simple Storage Service - Amazon S3
+- Bucket
+- Amazon CloudFront
