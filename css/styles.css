@@ -1,0 +1,202 @@
+/* CSS geral */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #A7A6A6;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+body .person-section {
+    background-color: #363636
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* CSS do cabeçalho */
+header {
+  background-color: #000;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header h1 {
+  font-size: 2.8em;
+  font-weight: 200;
+  color: #fff;
+}
+
+header h1 {
+  color: #fff;
+  transition: 0.2s ease-in-out;
+}
+
+.fa-linkedin {
+  color: #0a66c2;
+  transition: 0.2s ease-in-out;
+}
+
+.fa-github {
+  color: #000;
+  transition: 0.2s ease-in-out;
+}
+
+.fa-square-instagram {
+  color: #e4405f;
+  transition: 0.2s ease-in-out;
+}
+
+.fa-whatsapp {
+  color: #25d366;
+  transition: 0.2s ease-in-out;
+}
+
+.fa-linkedin:hover,
+.fa-github:hover,
+.fa-square-instagram:hover,
+.fa-whatsapp:hover {
+  color: #fff;
+}
+
+.btn-download,
+.btn-download button {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  font-size: 1.2em;
+}
+
+.btn-download:hover,
+.btn-download button:hover {
+  background-color: #0056b3;
+}
+
+.btn-download:focus,
+.btn-download button:focus {
+  outline: none;
+}
+
+.btn-download:active,
+.btn-download button:active {
+  background-color: #004080;
+}
+
+/* CSS do conteúdo principal */
+main {
+  padding: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+.main-content h2 {
+  margin: 0;
+  font-size: 2.2em;
+  font-weight: bold;
+  color: #fff;
+}
+
+.main-content .text-container {
+  order: -1;
+}
+
+.main-content .text {
+  width: 100%;
+  font-size: 1.2em;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 2%;
+}
+
+main figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+main figure img {
+  width: 350px;
+  height: 350px;
+  border-radius: 180px;
+  margin-bottom: 2%;
+  border: 1px #007bff solid;
+  transition: 0.2s ease-in-out;
+}
+
+main figure img:hover {
+  box-shadow: 0px 0px 10px #00e0ff;
+}
+
+.person-section {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 3px solid #000;
+  border-radius: 10px;
+}
+
+/* CSS do rodapé */
+footer {
+  background-color: #000;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer span {
+  font-size: 0.8em;
+  font-weight: 200;
+  color: #fff;
+}
+
+/* Responsividade */
+
+@media screen and (max-width: 768px) {
+    /* Para telas com largura máxima de 768px */
+  
+    main figure img, .nav a {
+      width: 200px; /* Tamanho da imagem reduzido */
+      height: 200px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    /* Para telas com largura máxima de 480px */
+    .main-content {
+      font-size: 1.8em; /* Reduzir o tamanho da fonte para telas menores */
+    }
+  
+    main figure img {
+      width: 150px; /* Tamanho da imagem reduzido ainda mais */
+      height: 150px;
+    }
+  }
+  

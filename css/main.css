@@ -1,46 +1,73 @@
 main {
-    padding: 5%;
-
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  padding: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-/* MAIN CONTENT ========== */
-main .main-content {
-    display: flex;
-    flex-direction: column;
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
 }
 
-main .main-content h2 {
-    margin: 2%;
-    font-size: 2.2em;
+.main-content h2 {
+  margin: 0;
+  font-size: 2.2em;
+  font-weight: bold;
+  color: #fff;
 }
 
-main .main-content .text p {
-    width: 75%;
-    font-size: 2.2em;
-    font-weight: 600;
+.main-content .text-container {
+  order: -1;
 }
 
-/* FIGURE ==============*/
+.main-content .text {
+  width: 100%;
+  font-size: 1.2em;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 2%;
+}
+
 main figure {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 main figure img {
-    width:350px;
-    height: 350px;
-    border-radius: 180px;
-
-    margin-bottom: 6%;
-    border: 1px #00e0ff solid;
-    transition: 0.2s ease-in-out;
+  width: 350px;
+  height: 350px;
+  border-radius: 180px;
+  margin-bottom: 2%;
+  border: 1px #007bff solid;
+  transition: 0.2s ease-in-out;
 }
 
 main figure img:hover {
-    box-shadow: 0px 0px 10px #00e0ff;
+  box-shadow: 0px 0px 10px #00e0ff;
+}
+
+.person-section {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 3px solid #000;
+  border-radius: 10px;
+}
+
+/* Redes Sociais */
+div nav {
+    display: flex;
+    justify-content: center; /* Centralizar horizontalmente */
+}
+
+div nav a {
+    margin-right: .7em;
+    margin-left: .7em; /* justar a posição para a direita */
+    font-size: 2em;
+    align-items: center;
 }
