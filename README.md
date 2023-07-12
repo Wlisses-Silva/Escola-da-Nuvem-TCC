@@ -1,5 +1,5 @@
 # Trabalho de Conclusão de Curso - Escola da Nuvem.
-## Criando Primeiro Stie - HTML, CSS e Javascript. 
+## Projeto Website para Divulgação de Currículo com HTML, CSS e Javascript. 
 
 # Objetivo
 
