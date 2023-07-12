@@ -20,6 +20,9 @@ Desenvolvimento de um website (html, css, javascript) contendo os currículos do
 
 Aqui basicamente o usuário acesso através do link do site e chega no **CloudFront** o próporio busca e os arquivos no **BicketS3** que retorna para o usuário. 
 
+## Links
+[Aqui você pode ver a postagem feita no LinkedIn](https://www.linkedin.com/posts/wlisses-silva_apresenta%C3%A7%C3%A3o-slides-activity-7084702578692734976-xYPl?utm_source=share&utm_medium=member_desktop)
+
 ### Considerações Finais
 
 O projeto foi realmente bem simples, e foi feito de acordo com as instruções do trabalho. Eu gostaria de ter feito com mais recursos mas, não foi possível. 
