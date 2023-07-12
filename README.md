@@ -16,4 +16,7 @@ Desenvolvimento de um website (html, css, javascript) contendo os currículos do
 
 ## Arquitetura 
 
-![Arquitetura simples do Projeto]()
+![arquitetura-projeto-website](https://github.com/Wlisses-Silva/Escola-da-Nuvem-TCC/assets/104795256/a2ade54c-baae-49c7-ac80-529e0e009145)
+
+Aqui basicamente o usuário acesso através do link do site e chega no **CloudFront** o próporio busca e os arquivos no **BicketS3** que retorna para o usuário. 
+
