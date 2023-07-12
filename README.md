@@ -10,7 +10,11 @@ Desenvolvimento de um website (html, css, javascript) contendo os currículos do
 - Simple Storage Service - Amazon S3
   
   Serviço de armazenamento de objetos construído para armazenar e recuperar qualquer volume de dados de qualquer local.
+  
 - Bucket
+  
   Baude onde vamos colocar os objetos e que é virtualmente infinito para armazenamento de objetos.
+  
 - Amazon CloudFront
+  
   Serviço de entrega de conteúdo (CDN) que entrega dados, vídeos, aplicativo e API’s com segurança, baixa latência e alta velocidade. 
